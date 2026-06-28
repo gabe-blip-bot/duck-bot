@@ -1,0 +1,14 @@
+name = "carla-swim-bot"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+
+[triggers]
+crons = ["*/1 * * * *"]
+
+[vars]
+VENUE = "west-reservoir-centre"
+ACTIVITY = "open-water-swimming"
+
+[[kv_namespaces]]
+binding = "STATE"
+id = "e31fc8a9082c4137bf7209a5dde2bd19"
